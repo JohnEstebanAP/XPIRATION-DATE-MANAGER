@@ -10,18 +10,17 @@ import android.view.View
 import androidx.appcompat.app.AlertDialog
 import com.johnestebanap.xpiration_date_manager.R
 
-@SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         //El metodo Thead nos permite utilizar ilos
         //Este puede generar error por lo que locaturamos dentro de un try catch
-        try {
-            Thread.sleep(3000)//Permite mantener el splash screen por un segundo
-        }catch (e: InterruptedException){
-            e.printStackTrace()
-        }
+        //try {
+        //    Thread.sleep(3000)//Permite mantener el splash screen por un segundo
+        //}catch (e: InterruptedException){
+        //    e.printStackTrace()
+        //}
 
         //  setTheme(R.style.SplashTheme)// Especificamos que nuestra activity usara el tema del splash screen
 

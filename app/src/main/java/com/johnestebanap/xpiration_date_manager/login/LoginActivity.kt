@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import com.johnestebanap.xpiration_date_manager.R
+import com.johnestebanap.xpiration_date_manager.database.DatabaseAccess
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
@@ -12,10 +13,10 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        //setup()
+        setup()
     }
 
-/*
+
     private fun setup() {
 
         botonIngresar.setOnClickListener {
@@ -40,10 +41,10 @@ class LoginActivity : AppCompatActivity() {
 
                 val valores = databaseAccess.getLogin(cedula, correo)
                 databaseAccess.close()
-                var nombre: String? = valores[0]
-                var cedulauser: String? = valores[1]
-                var correouser: String? = valores[2]
-                var contrasenia: String? = valores[3]
+                val nombre: String? = valores[0]
+                val cedulauser: String? = valores[1]
+                val correouser: String? = valores[2]
+                val contrasenia: String? = valores[3]
 
                 if (cedulauser.equals(validacion) || correouser.equals(validacion) && contrasenia.equals(
                         contraseñaBalidadcion
@@ -57,7 +58,7 @@ class LoginActivity : AppCompatActivity() {
             }
         }
     }
-*/
+
     private fun showHome(nombre: String, email: String, contrasenia: String, cedula: String) {
 
         val homeIntent = Intent(this, WelcomeActivity::class.java).apply {
