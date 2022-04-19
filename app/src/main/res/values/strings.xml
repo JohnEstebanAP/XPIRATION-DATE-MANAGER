@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">XPIRATION-DATE-MANAGER</string>
+    <string name="prefs_file">com.xpirationdatemanager.app.PREFERENCE_FILE_KEY</string>
+    <string name="view_login">Login</string>
+    <string name="view_pass">Password</string>
+    <string name="iniciar_sesión">Iniciar sesión</string>
+    <string name="recordar_usaurio">Recordar Usaurio</string>
+    <string name="Bienvenido">Bienvenid@</string>
 </resources>
