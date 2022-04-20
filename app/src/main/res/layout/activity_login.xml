@@ -10,7 +10,7 @@
     android:paddingHorizontal="25dp"
     android:paddingTop="20dp"
     android:paddingBottom="20dp"
-    tools:context=".login.LoginActivity">
+    tools:context=".ui.login.LoginActivity">
 
 
     <ImageView

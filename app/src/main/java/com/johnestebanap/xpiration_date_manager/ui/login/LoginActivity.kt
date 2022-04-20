@@ -1,4 +1,4 @@
-package com.johnestebanap.xpiration_date_manager.login
+package com.johnestebanap.xpiration_date_manager.ui.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".funcion_notification.PrincipalNotificacionesActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_fecha"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:hint="Fecha seleccionada..."
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/btn_selefecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="seleccionar fecha"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_hora"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:hint="Fecha seleccionada..."
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/btn_selehora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Seleccionar Hora"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Guardar notificacion"
+        />
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Eliminar alarma"
+        android:layout_marginTop="19dp"
+        />
+
+
+</LinearLayout>

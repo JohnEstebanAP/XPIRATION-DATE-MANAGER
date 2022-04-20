@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.xpirationdatemanager.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_alertas"
+        android:name="com.example.xpirationdatemanager.ui.alertas.AlertasFragment"
+        android:label="@string/menu_alertas"
+        tools:layout="@layout/fragment_alertas" />
+
+    <fragment
+        android:id="@+id/nav_calendario"
+        android:name="com.example.xpirationdatemanager.ui.calendario.CalendarioFragment"
+        android:label="@string/menu_calendario"
+        tools:layout="@layout/fragment_calendario" />
+
+    <fragment
+        android:id="@+id/nav_basedatos"
+        android:name="com.example.xpirationdatemanager.ui.base_datos.BaseDatosFragment"
+        android:label="@string/menu_base_datos"
+        tools:layout="@layout/fragment_basebatos" />
+
+    <fragment
+        android:id="@+id/nav_graficas"
+        android:name="com.example.xpirationdatemanager.ui.graficas.GraficasFragment"
+        android:label="@string/menu_graficas"
+        tools:layout="@layout/fragment_graficas" />
+
+    <fragment
+        android:id="@+id/nav_barras"
+        android:name="com.example.xpirationdatemanager.ui.codigo_barras.BarrasFragment"
+        android:label="@string/menu_barras"
+        tools:layout="@layout/fragment_barras" />
+    <fragment
+        android:id="@+id/nav_supervisor"
+        android:name="com.example.xpirationdatemanager.ui.supervisor.SupervisorFragment"
+        android:label="@string/menu_supervisor"
+        tools:layout="@layout/fragment_supervisor" />
+    <fragment
+        android:id="@+id/nav_banco"
+        android:name="com.example.xpirationdatemanager.ui.banco_alimentos.bancoFragment"
+        android:label="@string/menu_banco"
+        tools:layout="@layout/fragment_banco" />
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.example.xpirationdatemanager.ui.salir.SalirFragment"
+        android:label="@string/menu_salir"
+        tools:layout="@layout/fragment_home" />
+
+
+</navigation>

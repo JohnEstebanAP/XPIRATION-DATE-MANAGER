@@ -1,13 +1,9 @@
-package com.johnestebanap.xpiration_date_manager.login
+package com.johnestebanap.xpiration_date_manager.ui.login
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import androidx.appcompat.app.AlertDialog
 import com.johnestebanap.xpiration_date_manager.R
 
 class SplashScreenActivity : AppCompatActivity() {

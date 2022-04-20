@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingHorizontal="30dp"
+    android:paddingVertical="15dp"
+    tools:context=".ui.base_datos.RegistrarProductoActivity"
+    android:orientation="vertical"
+    android:background="@color/colorFondo">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Registrar producto"
+        android:textColor="@color/Colorblack"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorFondo"
+            android:paddingHorizontal="5dp">
+
+
+            <Button
+                android:id="@+id/btn_escanear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style"
+                android:text="Escanear producto"
+                android:textColor="#FFFFFF"
+                android:elevation="4dp"
+                android:layout_marginTop="10dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="33dp" />
+
+            <TextView
+                android:id="@+id/tv_codigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Codigo del producto"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_codigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:background="@drawable/edt_style2"
+                android:layout_marginHorizontal="1dp"
+                android:elevation="2dp"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_nombre_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nombre del produco"
+                android:textSize="18sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/et_nombre_producto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:background="@drawable/edt_style2"
+                android:layout_marginHorizontal="1dp"
+                android:elevation="2dp"
+                android:paddingStart="10dp"
+                android:imeOptions="actionNext"/>
+            <TextView
+                android:id="@+id/tv_marca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marca"
+                android:textSize="18sp"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/et_marca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:background="@drawable/edt_style2"
+                android:layout_marginHorizontal="1dp"
+                android:elevation="2dp"
+                android:paddingStart="10dp"
+                android:imeOptions="actionNext"
+                android:inputType="textAutoComplete"/>
+
+            <TextView
+                android:id="@+id/tv_cantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cantidad"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/et_cantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:background="@drawable/edt_style2"
+                android:layout_marginHorizontal="1dp"
+                android:elevation="2dp"
+                android:paddingStart="10dp"
+                android:imeOptions="actionNext"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tv_prveedor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del Proveedor"
+                android:textSize="18sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/et_proveedor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:background="@drawable/edt_style2"
+                android:layout_marginHorizontal="1dp"
+                android:elevation="2dp"
+                android:paddingStart="10dp"
+                android:imeOptions="actionNext"
+                android:inputType="textAutoComplete"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_fecha_ex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fecha de expedición"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_fecha_ex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_style"
+                        android:ems="10"
+                        android:text="Escoger fecha"
+                        android:textColor="#FFFFFF"
+                        android:elevation="4dp"/>
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_fecha_ca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fecha de caducidad"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_fecha_ca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_style"
+                        android:ems="10"
+                        android:text="Escoger fecha"
+                        android:textColor="#FFFFFF"
+                        android:elevation="4dp"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_fecha_ingreso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fecha de registro"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btn_fecha_ingreso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_style"
+                        android:ems="10"
+                        android:text="Escoger fecha"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_estanteria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Número de estanteria"
+                android:textSize="18sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/et_estanteria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:background="@drawable/edt_style2"
+                android:layout_marginHorizontal="1dp"
+                android:elevation="2dp"
+                android:paddingStart="10dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="33dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_aceptar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_style"
+                    android:text="Aceptar"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="1"/>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btn_cancelar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_style"
+                    android:text="Cancelar"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

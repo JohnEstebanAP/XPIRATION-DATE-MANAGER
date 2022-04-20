@@ -6,13 +6,33 @@
         <entry key="app/src/main/res/drawable/btn2_style.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/btn_style.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/edt_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/edt_style2.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_lock.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_login.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_login_tp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/notification_green.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/notification_red.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/notification_yellow.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/splashscreen.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/textview_amarillo.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/textview_border.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/textview_border_titulo.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/textview_color1.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/textview_rojo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_alertas.xml" value="0.2041025641025641" />
+        <entry key="app/src/main/res/layout/activity_base_datos.xml" value="0.2041025641025641" />
+        <entry key="app/src/main/res/layout/activity_info_producto.xml" value="0.2041025641025641" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_menu_desplegable.xml" value="0.2041025641025641" />
+        <entry key="app/src/main/res/layout/activity_principal_notificaciones.xml" value="0.2041025641025641" />
+        <entry key="app/src/main/res/layout/activity_registrar_producto.xml" value="0.2041025641025641" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.2041025641025641" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.2041025641025641" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.2041025641025641" />
+        <entry key="app/src/main/res/layout/fragment_alertas.xml" value="0.2041025641025641" />
+        <entry key="app/src/main/res/layout/fragment_banco.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/fragment_base_datos.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_list_view_historial_alertas.xml" value="0.1" />
       </map>
     </option>
   </component>
